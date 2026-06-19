@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    "**/bin": false,
+    "**/obj": false,
+    "**/.config": false,
+    "**/.vscode": false,
+    "**/Properties": false
+  }
+}

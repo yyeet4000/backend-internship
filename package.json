@@ -1,0 +1,13 @@
+{
+  "name": "internship",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Internship commands",
+  "scripts": {
+    "api:run": "dotnet run --project Features\\APIs\\Template.Api",
+    "api:watch": "dotnet run --project Features\\APIs\\Template.Api",
+
+    "mig": "dotnet ef migrations add -p Features\\APIs\\Template.Api -o Core/Migrations",
+    "mig:update": "dotnet ef database update -p Features\\APIs\\Template.Api -o Core/Migrations"
+  }
+}
